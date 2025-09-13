@@ -12,7 +12,7 @@
    9. Language Selector
    10. Carousel (react-slick overrides)
    11. Footer
-   12. Animations & Utilities
+   12. Animations & Utilities 
    13. Media Queries
    ================================================================================================================== 
 
@@ -57,11 +57,21 @@ html.dark .toggle:hover { background:#374151; }
 
 html.dark .filters-modal-content { background: #1f2937; color: #fff; }
 
+html.dark .hours-title {
+  color: #ffffff; /* slate-300 */
+}
+
+html.dark .hours-day {
+  color: #ffffff; /* slate-300 */
+}
 html.dark .filters-modal-content {
   background: #1e293b;
   color: #f1f5f9;
 }
 
+html.dark .meta-value {
+  color: #ffffff; /* slate-300 */
+}
 .filters-header h2 {
   margin: 0;
   font-size: 18px;
@@ -142,7 +152,7 @@ html.dark .detail-hero-placeholder { background:#1f273a; color:#9aa1b7; }
 
 .detail-body { padding: 16px 4px; }
 
-html.dark .detail-address { color:#9aa1b7; }
+html.dark .detail-address { color:#ed9c02; }
 
 html.dark .meta-item { background:#0f172a; border-color:rgba(255,255,255,.1); }
 
@@ -347,7 +357,7 @@ html.dark .nav-links a {
 .hero-title { margin: 0; font-size: 22px; font-weight: 700; display:flex; align-items:center; gap:10px; }
 
 .detail-hero {
-  position: relative; height: 340px; border-radius: 18px; overflow: hidden;
+  position: relative; height: 540px; border-radius: 18px; overflow: hidden;
   border: 1px solid rgba(15,23,42,.08); background:#fff;
   box-shadow: 0 12px 34px rgba(2,6,23,.10);
 }
@@ -424,7 +434,7 @@ html.dark .nav-links a {
 .detail-hero .slick-list,
 .detail-hero .slick-track,
 .detail-hero .hero-slide {
-  height: 420px;            
+  height: 540px;            
 }
 
 .detail-hero-grad {
