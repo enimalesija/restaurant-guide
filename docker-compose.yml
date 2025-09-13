@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: restaurant-backend
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/.env   # backend picks up its own env file
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build: ./frontend
+    container_name: restaurant-frontend
+    ports:
+      - "3000:80"
+    env_file:
+      - ./frontend/.env  # frontend picks up its own env file
+    depends_on:
+      - backend
