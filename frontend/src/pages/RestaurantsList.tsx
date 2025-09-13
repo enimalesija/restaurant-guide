@@ -509,7 +509,7 @@ export default function RestaurantsList() {
         </section>
       </div>
 
-      {/* ---------------- Footer ---------------- */}
+      {/* ---------------- Footer for design purpose (could be developed after for a full project also with Home, Abouts Us, Contact etc---------------- */}
       <footer className="footer">
         <div className="footer-container">
           <div>
