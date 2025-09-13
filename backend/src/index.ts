@@ -123,7 +123,7 @@ async function start() {
 
     // Start server
     await server.listen({ port: PORT, host: "0.0.0.0" });
-    server.log.info(`✅ API listening on http://localhost:${PORT}`);
+    server.log.info(` API listening on http://localhost:${PORT}`);
   } catch (err) {
     server.log.error(err);
     process.exit(1);
